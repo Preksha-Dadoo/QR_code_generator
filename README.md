@@ -1,7 +1,15 @@
-# QR_code_generator
-It takes the link from the user and generates its QR code. 
+# QR Code Generator 📷🔗
 
-Example :
-FOR https://www.magicbricks.com/propertyDetails/3-BHK-800-Sq-ft-Builder-Floor-Apartment-FOR-Sale-Patholi-in-Agra&id=4d423634353138313835
+This is a simple **QR Code Generator** written in Python. It allows users to **input a URL or text** and generates a scannable QR code image.
 
-![image](https://github.com/user-attachments/assets/3905e252-673c-40a4-87b6-0ae0e2007eb4)
+## 🚀 Features
+- ✅ Accepts user input (URL or text).
+- ✅ Generates a **QR code** and displays it.
+- ✅ Saves the QR code as an image (`qr_code.png`).
+- ✅ Uses the `qrcode` Python library.
+
+## 🛠️ Installation
+Before running the script, install the required dependencies:
+
+```bash
+pip install qrcode[pil]
